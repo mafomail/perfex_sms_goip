@@ -46,10 +46,10 @@ Click on Activate button next to the module
 
 Method 2: Manual Installation
 Download or clone this repository
-bashgit clone https://github.com/yourusername/perfex-goip-sms.git
+git clone https://github.com/mafomail/perfex_sms_goip.git
 
 Copy files to your Perfex CRM installation
-bashcp -r goip_sms modules/
+cp -r goip_sms modules/
 
 Activate the module
 Go to Setup → Modules in your Perfex CRM admin
@@ -191,11 +191,10 @@ Error messages from Activity Log
 Steps to reproduce the issue
 
 
-
 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-Support
+This project is licensed under the GNU General Public License v3.0 - see the LICENSE file for details.
 
+Support
 GitHub Issues: Report bugs or request features
 Documentation: Check this README and Perfex CRM documentation
 
