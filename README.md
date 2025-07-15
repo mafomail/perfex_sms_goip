@@ -22,7 +22,7 @@ Requirements:
 - Perfex CRM version 2.3.0 or higher
 - GoIP GSM Gateway device
 - PHP with cURL extension enabled
-- Gateway IP musit be whitelisted
+- Gateway IP must be whitelisted
 - SIM card with SMS capability
 
 Installation
