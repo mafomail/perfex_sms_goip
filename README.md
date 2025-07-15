@@ -215,4 +215,4 @@ Community - Thanks to all contributors and testers
 
 
 ⭐ If this module helped you, please star this repository!
-💝 Consider supporting the development by buying me a coffee or contributing to the project.
+Consider supporting the development by buying me a coffee or contributing to the project.
