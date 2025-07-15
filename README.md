@@ -3,41 +3,36 @@ GoIP SMS Module for Perfex CRM
 This module allows you to integrate GoIP GSM Gateway with Perfex CRM, enabling you to send SMS notifications directly from your CRM system using your own GSM hardware.
 Features
 
-✅ Direct GoIP Integration - Connect your GoIP GSM Gateway directly to Perfex CRM
-✅ Standard SMS Interface - Integrates seamlessly with Perfex CRM's built-in SMS system
-✅ All SMS Triggers - Supports all standard Perfex CRM SMS triggers (invoice notifications, payment confirmations, etc.)
-✅ Cost Effective - Use your own SIM cards instead of expensive SMS services
-✅ Easy Configuration - Simple setup through Perfex CRM admin interface
-✅ Multi-language Support - Works with international characters
-✅ Activity Logging - All SMS activities are logged in Perfex CRM
+- Direct GoIP Integration - Connect your GoIP GSM Gateway directly to Perfex CRM
+- Standard SMS Interface - Integrates seamlessly with Perfex CRM's built-in SMS system
+- All SMS Triggers - Supports all standard Perfex CRM SMS triggers (invoice notifications, payment confirmations, etc.)
+- Cost Effective - Use your own SIM cards instead of expensive SMS services
+- Easy Configuration - Simple setup through Perfex CRM admin interface
+- Multi-language Support - Works with international characters
+- Activity Logging - All SMS activities are logged in Perfex CRM
 
 Supported GoIP Models
 This module has been tested with:
-
-GoIP-1 (Single port GSM Gateway)
-GoIP-4 (4-port GSM Gateway)
-GoIP-8 (8-port GSM Gateway)
+- GoIP-1 (Single port GSM Gateway)
 Other GoIP models should work with minor adjustments
 
 Tested with firmware: GHSFVT-1.1-67 and newer
-Requirements
 
-Perfex CRM version 2.3.0 or higher
-GoIP GSM Gateway device
-PHP with cURL extension enabled
-SIM card with SMS capability
+Requirements:
+- Perfex CRM version 2.3.0 or higher
+- GoIP GSM Gateway device
+- PHP with cURL extension enabled
+- Gateway IP musit be whitelisted
+- SIM card with SMS capability
 
 Installation
 Method 1: Download and Install
-
 Download the latest release
-
 Go to the Releases page
 Download the latest goip_sms.zip file
 
 
 Upload the module
-
 Log in to your Perfex CRM admin panel
 Navigate to Setup → Modules
 Click on Upload Module button
@@ -45,14 +40,11 @@ Upload the goip_sms.zip file
 
 
 Activate the module
-
 Find the module in the list of available modules
 Click on Activate button next to the module
 
 
-
 Method 2: Manual Installation
-
 Download or clone this repository
 bashgit clone https://github.com/yourusername/perfex-goip-sms.git
 
@@ -60,7 +52,6 @@ Copy files to your Perfex CRM installation
 bashcp -r goip_sms modules/
 
 Activate the module
-
 Go to Setup → Modules in your Perfex CRM admin
 Find "GoIP SMS" and click Activate
 
@@ -205,9 +196,8 @@ License
 This project is licensed under the MIT License - see the LICENSE file for details.
 Support
 
-📫 GitHub Issues: Report bugs or request features
-📖 Documentation: Check this README and Perfex CRM documentation
-💬 Community: Join Perfex CRM community discussions
+GitHub Issues: Report bugs or request features
+Documentation: Check this README and Perfex CRM documentation
 
 Changelog
 Version 1.0.0
@@ -220,7 +210,6 @@ Character encoding support
 Activity logging
 
 Credits
-
 Perfex CRM - Amazing CRM system
 GoIP/Hybertone - GSM Gateway hardware
 Community - Thanks to all contributors and testers
